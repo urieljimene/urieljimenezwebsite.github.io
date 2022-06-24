@@ -1,0 +1,238 @@
+header{
+    width: 100%;
+}
+.container4 {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.3fr 0.2fr 1.2fr 0.2fr 1.2fr 1.2fr 1.2fr;
+    gap: 13px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "nav nav nav"
+      "new_work_header new_work_header new_work_header"
+      "work work work"
+      "music_header music_header music_header"
+      "name1 vid1 why1"
+      "name2 vid2 why2"
+      "name3 vid3 why3";
+  }
+  
+  .nav { grid-area: nav; }
+  
+  .music_header { grid-area: music_header; }
+  
+  .work { grid-area: work; }
+  
+  .new_work_header { grid-area: new_work_header; }
+  
+  .vid1 { grid-area: vid1; }
+  
+  .vid2 { grid-area: vid2; }
+  
+  .vid3 { grid-area: vid3; }
+  
+  .name1 { grid-area: name1; }
+  
+  .name2 { grid-area: name2; }
+  
+  .name3 { grid-area: name3; }
+  
+  .why1 { grid-area: why1; }
+  
+  .why2 { grid-area: why2; }
+  
+  .why3 { grid-area: why3; }
+  
+  
+  .nav { grid-area: nav; }
+  
+  .foot { grid-area: foot; }
+  
+  .music { grid-area: music; }
+  
+  .music_header { grid-area: music_header; }
+  
+  .work { grid-area: work; }
+  
+  .new_work_header { grid-area: new_work_header; }
+  
+
+  .center{
+      text-align: center;
+  }
+  img{
+      width: 100%;
+  }
+
+
+  .geeks {
+    overflow: hidden;
+    margin: 0 auto;
+}
+  
+.geeks img {
+    width: 100%;
+    transform-origin: 55% 15%;
+    transition: transform 4s, filter 3s ease-in-out;
+}
+  
+.geeks:hover img {
+    transform: scale(2);
+}
+
+  .imgcenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+ 
+
+
+  .orange {
+    background: orange;
+    margin: 15px;
+    padding: 15px;
+    margin-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }
+  .somthing a:hover, a:visited {
+    background: darken(orange, 80%);
+    color: black;
+    
+  }
+
+  a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+
+  .bg2{
+    background: rgba(140, 143, 2, 0.658);
+    margin: 15px;
+    padding: 15px;
+    margin-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }
+
+  .bg3{
+    background: rgb(48, 197, 127);
+    margin: 15px;
+    padding: 15px;
+    margin-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }
+
+  video{
+      width: 600px;
+  }
+
+
+  .bg4{
+    background: rgb(0, 0, 0);
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+  .container2 {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.3fr 0.2fr 1.2fr 0.2fr 1.2fr 1.2fr 0.2fr 1.1fr;
+    gap: 13px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "nav2 nav2 nav2"
+      "about_title about_title about_title"
+      "goals picofme some_of_my_work"
+      "school_title school_title school_title"
+      "unc_name unc_pic unc_info"
+      "dtcc_name dtcc_pic dtcc_info"
+      "work_title work_title work_title"
+      "work_info work_info work_info";
+  }
+  
+  .nav2 { grid-area: nav2; }
+  
+  .about_title { grid-area: about_title; }
+  
+  .school_title { grid-area: school_title; }
+  
+  .unc_pic { grid-area: unc_pic; }
+  
+  .dtcc_pic { grid-area: dtcc_pic; }
+  
+  .unc_name { grid-area: unc_name; }
+  
+  .dtcc_name { grid-area: dtcc_name; }
+  
+  .unc_info { grid-area: unc_info; }
+  
+  .dtcc_info { grid-area: dtcc_info; }
+  
+  .work_title { grid-area: work_title; }
+  
+  .work_info { grid-area: work_info; }
+  
+  .picofme { grid-area: picofme; }
+  
+  .goals { grid-area: goals; }
+  
+  .some_of_my_work { grid-area: some_of_my_work; }
+  
+
+
+
+  .container3 {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 0.3fr 0.5fr 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "nav3 nav3 nav3"
+      "all_work video_work pic_work"
+      "stuff3 stuff3 stuff3"
+      "stuff3 stuff3 stuff3"
+      "stuff3 stuff3 stuff3"; 
+  }
+  
+  .stuff3 { grid-area: stuff3; }
+
+  .all_work { grid-area: all_work; }
+  
+  .video_work { grid-area: video_work; }
+  
+  .pic_work { grid-area: pic_work; }
+  
+  .nav3 { grid-area: nav3; }
+  
+.bg5{
+  background-color: rgba(255, 1, 1, 0.377);
+  padding: 60px;
+
+}
+
+.moveup{
+  margin-bottom: auto;
+}
+
+.color2{
+  background-color: rgb(255, 255, 255);
+}
+
+.bg8{
+  padding: 60px;
+
+}
