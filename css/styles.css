@@ -7,7 +7,7 @@ header{
     gap: 13px 0px;
     grid-auto-flow: row;
     grid-template-areas:
-      "nav nav nav"
+      "nav5 nav5 nav5"
       "new_work_header new_work_header new_work_header"
       "work work work"
       "music_header music_header music_header"
@@ -16,7 +16,7 @@ header{
       "name3 vid3 why3";
   }
   
-  .nav { grid-area: nav; }
+  .nav5 { grid-area: nav5; }
   
   .music_header { grid-area: music_header; }
   
